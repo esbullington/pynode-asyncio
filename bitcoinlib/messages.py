@@ -12,8 +12,8 @@ import struct
 import time
 import random
 import io
-from pynode3.coredefs import *
-from pynode3.core import *
+from bitcoinlib.coredefs import *
+from bitcoinlib.core import *
 
 MSG_TX = 1
 MSG_BLOCK = 2

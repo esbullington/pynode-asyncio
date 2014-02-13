@@ -5,14 +5,14 @@ import hashlib
 import signal
 
 
-from pynode3.coredefs import *
-from pynode3.core import *
-from pynode3.messages import *
-from pynode3.logger import PrettyLog
+from bitcoinlib.coredefs import *
+from bitcoinlib.core import *
+from bitcoinlib.messages import *
+from bitcoinlib.logger import PrettyLog
 
 
 MY_VERSION = 313
-MY_SUBVERSION = b"/pynode3:0.0.1/"
+MY_SUBVERSION = b"/bitcoinlib:0.0.1/"
 
 # Default Settings if no configuration file is given
 settings = {

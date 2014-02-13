@@ -14,9 +14,9 @@ import binascii
 import time
 import hashlib
 import sys
-from pynode3.serialize import *
-from pynode3.coredefs import *
-from pynode3.script import CScript
+from bitcoinlib.serialize import *
+from bitcoinlib.coredefs import *
+from bitcoinlib.script import CScript
 
 def sha256(s):
     return hashlib.new('sha256', s).digest()
